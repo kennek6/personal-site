@@ -1,0 +1,7 @@
+---
+title: "Page not found"
+---
+
+That page doesn't exist — it may have moved.
+
+Try the [home page](/) or the navigation above.

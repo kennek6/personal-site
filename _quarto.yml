@@ -1,0 +1,43 @@
+project:
+  type: website
+  pre-render: python3 scripts/bib_to_yaml.py
+  resources:
+    - publications.bib
+    - CNAME          # tells GitHub Pages to serve this repo at katekennedy.ca
+
+execute:
+  freeze: auto
+
+website:
+  title: "Katherine M. Kennedy"
+  description: "Microbiome and perinatal physiology researcher, McMaster University"
+  site-url: https://katekennedy.ca
+  favicon: assets/favicon.svg
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    pinned: true   # keep the navbar visible; Quarto hides it on scroll by default
+    title: "Katherine M. Kennedy"
+    left:
+      - href: index.qmd
+        text: About
+      - href: research.qmd
+        text: Research
+      - href: publications.qmd
+        text: Publications
+      - href: talks.qmd
+        text: Talks
+      - href: cv.qmd
+        text: CV
+  page-footer:
+    left: "© 2026 Katherine M. Kennedy"
+    right: "Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme: [flatly, custom.scss]
+    toc: false
+    page-layout: article
+    email-obfuscation: javascript

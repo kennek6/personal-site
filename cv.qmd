@@ -1,0 +1,57 @@
+---
+title: "CV"
+page-layout: full   # wide two-column layout, see .labelled in custom.scss
+---
+
+::: {.labelled}
+
+<!-- Drop the PDF at assets/kennedy-cv.pdf and this link works. Until then it 404s,
+     so keep CV out of the navbar (_quarto.yml) if you publish before adding it. -->
+
+[Download full CV (PDF)](assets/kennedy-cv.pdf)
+
+## Education
+
+- **PhD**, Biochemistry, McMaster University, 2015–2021 — Laboratory of Dr. Deborah Sloboda.
+  Thesis: *Maternal-microbiome relationships in pregnancy and impact on offspring intestinal
+  development.*
+- **MSc**, Biology, University of Waterloo, 2011–2014 — Laboratory of Dr. Josh Neufeld.
+  Thesis: *Evaluating molecular methods for human microbiome analysis.*
+- **BSc**, Honours Biomedical Sciences, University of Waterloo, 2007–2011
+
+## Positions
+
+- **Postdoctoral Fellow**, Department of Biochemistry and Biomedical Sciences,
+  McMaster University, 2023–present
+- **Postdoctoral Fellow**, Department of Obstetrics and Gynecology,
+  McMaster University, 2021–2023
+
+## Selected funding
+
+- **CIHR Postdoctoral Fellowship**, Canadian Institutes of Health Research, 2023–2026
+- **Farncombe Innovation Grant** (PI), Farncombe Family Digestive Health Research Institute,
+  McMaster University, 2023–2026
+- **Molly Towell Fellowship**, Molly Towell Perinatal Research Foundation, 2022–2023
+
+## Selected awards
+
+- **Leadership Award**, Farncombe Family Digestive Health Research Institute, 2025
+- **Mohide Lectureship Award**, Department of Obstetrics and Gynecology, McMaster University, 2022
+- **Postdoctoral Fellow Impact Award**, Department of Biochemistry and Biomedical Sciences,
+  McMaster University, 2022
+- **Best Selected Talk**, Microbiome Virtual International Forum, 2023
+- **President's Plenary Presenter Award**, World Congress on the Developmental Origins of
+  Health and Disease, 2022
+
+## Teaching
+
+Guest lectures in developmental biology, metabolism, and reproductive health at McMaster,
+Guelph, and Western. Carpentries-certified instructor; have taught introductory R for
+ACENET and the Farncombe Institute Trainee Association.
+
+## Mentorship
+
+Have supervised twelve undergraduate thesis, co-op, and project students since 2016, several
+of whom have gone on to graduate and medical training.
+
+:::

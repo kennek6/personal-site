@@ -1,0 +1,12 @@
+---
+title: "Publications"
+page-layout: full   # wide two-column layout, see .labelled in custom.scss
+---
+
+::: {.labelled}
+
+<!-- Generated from publications.bib — edit that file, not this page. -->
+
+{{< include _pub-entries.html >}}
+
+:::

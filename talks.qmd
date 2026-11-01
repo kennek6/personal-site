@@ -1,0 +1,81 @@
+---
+title: "Talks"
+page-layout: full   # wide two-column layout, see .labelled in custom.scss
+---
+
+::: {.labelled}
+
+<!-- Lists copied from the CV (Invited Talks, Presentation Awards). Keep newest first. -->
+
+## Recorded
+
+**Questioning the fetal microbiome illustrates pitfalls of low-biomass microbial studies**
+(with Marcus C. de Goffau). Microbiome Virtual International Forum, 2023. *Best Selected Talk Award.*
+
+{{< video https://www.youtube.com/watch?v=-08KhFu47DE title="Questioning the fetal microbiome, MVIF 2023" >}}
+
+**Podcast:** [Questioning the existence of a fetal microbiome](https://isappscience.org/episode-19-fetal-microbiome/).
+The Science, Microbes & Health Podcast, Episode 19, 2023.
+
+## Invited talks
+
+- **Birth order, intrapartum antibiotic prophylaxis, and infant health outcomes in the Baby & Mi
+  cohort study.** McMaster Midwifery Research Conference, Hamilton, Canada, 2026.
+- **Healthy Bugs: investigating the gut microbiome during pregnancy.** Department of Obstetrics,
+  Charité – Universitätsmedizin Berlin, Berlin, Germany, 2024.
+- **Host-microbiome interactions in pregnancy and early-life.** CellPress LabLinks: Analyzing the
+  microbiome across systems, Toronto, Canada, 2024.
+- **Parity Modulates Impact of BMI and Gestational Weight Gain on Gut Microbiota in Human
+  Pregnancy.** International DOHaD Society Worldwide Webinar Series (online), 2023.
+- **Questioning the fetal microbiome illustrates pitfalls of low-biomass microbial studies.**
+  Microbiome Virtual International Forum (online), 2023. *Best Selected Talk Award.*
+- **Maternal-microbiome relationships in pregnancy and impact on offspring.** International Webinar
+  on Women and Neonatal Health, Maharishi Markandeshwar University, Mullana-Ambala, India, 2022.
+- **Maternal-microbiome relationships in pregnancy and impact on offspring intestinal
+  development.** Farncombe Family Digestive Health Research Institute Noon Rounds, McMaster
+  University, Hamilton, ON, 2022.
+- **Exploring the gut microbiota over the course of pregnancy.** Metabolism, Obesity and Diabetes
+  Research seminar series, McMaster University, Hamilton, ON, 2019.
+- **Prenatal programming of disease risk: the maternal microbiota in placental function and fetal
+  intestine development.** Nutrigen Alliance seminar series, McMaster University, Hamilton, ON, 2018.
+
+## Presentation awards
+
+- **First-Born Infants are More Vulnerable to Intrapartum Antibiotic Disruption of Gut Microbiome
+  Development.** Oral presentation, 9th Annual Scientific Meeting of the Canadian DOHaD Society,
+  London, ON, 2026. *Prix d’excellence ODISÉ – Présentation orale.*
+- **Parity modulates impact of BMI and Gestational Weight Gain on gut microbiota in human
+  pregnancy.** Oral presentation, Biochemistry and Biomedical Sciences Research Symposium, McMaster
+  University, 2023. *1st place Postdoctoral Fellow Presentation.*
+- **Parity modulates impact of BMI and Gestational Weight Gain on gut microbiota in human
+  pregnancy.** Plenary oral presentation, World Congress on the Developmental Origins of Health and
+  Disease, Vancouver, Canada, 2022. *President's Plenary Presenter Award.*
+- **Excess adiposity during pregnancy impacts maternal and infant gut microbiota.** Poster
+  presentation, Biochemistry and Biomedical Sciences Research Symposium, Hamilton, ON, 2022.
+  *1st place Postdoctoral Fellow Poster Award.*
+- **Parity modulates impact of BMI and Gestational Weight Gain on gut microbiota in human
+  pregnancy.** Plenary oral presentation, Canadian National Perinatal Research Meeting (virtual),
+  2022. *1st place Oral Presentation.*
+- **Meconium does not have a detectable microbiome prior to birth.** Oral presentation, 46th Annual
+  RT Weaver Scientific Day, Department of Obstetrics and Gynecology, McMaster University, 2021.
+  *Best Science Student Presentation.*
+- **Meconium does not have a detectable microbiome prior to birth.** Poster presentation,
+  Biochemistry and Biomedical Sciences Research Symposium, Hamilton, ON, 2021. *Top Poster
+  Presentation.*
+- **Impact of pre-pregnancy BMI on maternal gut microbiota over the course of pregnancy.** Poster
+  presentation, Southern Ontario Reproductive Biology Conference, Toronto, ON, 2019. *Runner-up Best
+  Poster Presentation.*
+- **Impact of pre-pregnancy BMI on maternal gut microbiota over the course of pregnancy.** Plenary
+  oral presentation, Canadian National Perinatal Research Meeting, Mont-Tremblant, QC, 2019.
+  *Award of Excellence, Oral Presentation.*
+- **Maternal diet-induced obesity is associated with altered fetal gut development.** Oral
+  presentation, Canadian National Perinatal Research Meeting, Montebello, QC, 2017. *Best Oral
+  Presentation Award.*
+- **Maternal diet-induced obesity is associated with altered fetal gut development.** Oral
+  presentation, Southern Ontario Reproductive Biology meeting, London, ON, 2017. *Oral Presentation
+  Award.*
+- **Maternal diet-induced obesity is associated with altered fetal gut development.** Poster
+  presentation, Faculty of Health Science Research Plenary, McMaster University, Hamilton, ON, 2017.
+  *Excellence in Poster Presentation Award.*
+
+:::
