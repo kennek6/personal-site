@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://katekennedy.ca/talks.html</loc>
-    <lastmod>2026-11-01T21:00:33.789Z</lastmod>
-  </url>
-  <url>
-    <loc>https://katekennedy.ca/publications.html</loc>
-    <lastmod>2026-11-01T20:39:53.841Z</lastmod>
+    <loc>https://katekennedy.ca/index.html</loc>
+    <lastmod>2026-11-02T00:13:02.646Z</lastmod>
   </url>
   <url>
     <loc>https://katekennedy.ca/cv.html</loc>
-    <lastmod>2026-11-01T20:39:53.841Z</lastmod>
-  </url>
-  <url>
-    <loc>https://katekennedy.ca/index.html</loc>
-    <lastmod>2026-11-01T21:46:46.744Z</lastmod>
+    <lastmod>2026-11-02T00:13:02.646Z</lastmod>
   </url>
   <url>
     <loc>https://katekennedy.ca/research.html</loc>
-    <lastmod>2026-11-01T21:09:36.078Z</lastmod>
+    <lastmod>2026-11-02T00:13:02.647Z</lastmod>
+  </url>
+  <url>
+    <loc>https://katekennedy.ca/talks.html</loc>
+    <lastmod>2026-11-02T00:13:02.647Z</lastmod>
+  </url>
+  <url>
+    <loc>https://katekennedy.ca/publications.html</loc>
+    <lastmod>2026-11-02T00:13:02.647Z</lastmod>
   </url>
 </urlset>

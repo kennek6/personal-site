@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -39,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-00a68eb9e3c94298a4bf9e5118611dab.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6da8cef9767a49395b3d8f00e79ba087.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -135,7 +138,22 @@ ul.task-list li input[type="checkbox"] {
 <div class="research-layout">
 <div class="research">
 <div class="research-title h1 visually-hidden" role="heading" aria-level="1">Research</div>
-<p>How healthy we are across the lifespan, including how well we age, depends partly on conditions before birth and in early postnatal life. That is the premise of the developmental origins of health and disease (DOHaD). I study it through the gut, where maternal exposures, the first colonizing microbes, and host development meet. The sections below follow that path in developmental order, from how maternal diet programs the fetal gut, to when colonization begins, to how a mother’s pregnancy history shapes what she transmits.</p>
+<p>First and later pregnancies differ biologically, yet most studies of the maternal and infant microbiome treat them as interchangeable. My research asks how a mother’s pregnancy history and diet shape the gut and microbiota her child starts life with, and which of those early differences last into childhood and later life. The work combines human birth cohorts, mouse models of developmental programming, and methods built for low-biomass and longitudinal microbiome data.</p>
+<section id="pregnancy-history-and-the-maternalinfant-microbiome" class="level2">
+<h2 class="anchored" data-anchor-id="pregnancy-history-and-the-maternalinfant-microbiome">Pregnancy history and the maternal–infant microbiome</h2>
+<div class="key-finding">
+<p>The maternal gut microbiome adapts differently to a first pregnancy than to later ones, and birth order shapes neonatal colonization from the first days of life.</p>
+</div>
+<p>First-born children are smaller at birth, one sign that first and later pregnancies differ biologically. In a prospective cohort at Charité–Universitätsmedizin Berlin, I found that parity modifies how BMI and gestational weight gain relate to the maternal gut microbiota. Associations between excess adiposity and community composition were largely confined to first pregnancies, and multiparous participants followed different microbial trajectories. In a second pregnancy cohort (Bugs in BHIP), subcommunities of co-occurring taxa expanded and contracted differently in first and later pregnancies, and their postpartum recovery diverged. Pooling primiparous and multiparous participants can therefore obscure real biological signal.</p>
+<p>The differences extend to the newborn. In neonates, delivery mode, birth order, and sex each independently shape early colonization, and birth order modifies how delivery mode and intrapartum antibiotic prophylaxis (IAP) affect colonization in the first days of life. In the Baby &amp; Mi birth cohort (245 infants, sampled from 3 days to 3 years), I am asking whether these differences persist through early childhood and whether they track with growth and atopic outcomes.</p>
+<div class="papers">
+<p><strong>Papers:</strong> <a href="https://doi.org/10.1080/19490976.2023.2259316">Kennedy et al.&nbsp;2023, <em>Gut Microbes</em></a> · <a href="https://doi.org/10.1080/19490976.2025.2491667">Kennedy et al.&nbsp;2025, <em>Gut Microbes</em></a> · <a href="https://doi.org/10.1080/19490976.2026.2690907">Kennedy et al.&nbsp;2026, <em>Gut Microbes</em></a></p>
+</div>
+</section>
+<section id="strain-transmission-at-birth-the-good-bugs-study" class="level2">
+<h2 class="anchored" data-anchor-id="strain-transmission-at-birth-the-good-bugs-study">Strain transmission at birth: the Good Bugs Study</h2>
+<p>Birth-order differences in the infant microbiome are present within the first day of life. Because the fetal gut has no detectable microbiota before birth, these differences likely arise from what the mother transmits during delivery. I designed and lead the Good Bugs Study, funded by a Farncombe Innovation Grant, which uses culture-informed metagenomics to track which maternal vaginal and gut strains colonize newborns in first and later pregnancies. The study banks isolates for functional testing, including strains that may limit mother-to-infant transmission of potential pathogens.</p>
+</section>
 <section id="maternal-diet-the-placenta-and-the-fetal-gut" class="level2">
 <h2 class="anchored" data-anchor-id="maternal-diet-the-placenta-and-the-fetal-gut">Maternal diet, the placenta, and the fetal gut</h2>
 <div class="key-finding">
@@ -147,35 +165,21 @@ ul.task-list li input[type="checkbox"] {
 <p><strong>Papers:</strong> <a href="https://doi.org/10.1113/JP277353">Gohir, Kennedy et al.&nbsp;2019, <em>J Physiol</em></a> · PhD thesis, McMaster University, 2021</p>
 </div>
 </section>
-<section id="when-does-microbial-colonization-begin" class="level2">
-<h2 class="anchored" data-anchor-id="when-does-microbial-colonization-begin">When does microbial colonization begin?</h2>
+<section id="methods-for-low-biomass-and-longitudinal-data" class="level2">
+<h2 class="anchored" data-anchor-id="methods-for-low-biomass-and-longitudinal-data">Methods for low-biomass and longitudinal data</h2>
 <div class="key-finding">
 <p>Meconium collected before birth has no detectable microbiota, so gut colonization begins at birth.</p>
 </div>
-<p>For close to a decade, whether microbial colonization begins before birth was one of the most contested questions in microbiome science. A substantial literature reported bacterial DNA in placenta, amniotic fluid, and meconium, which would mean the fetal environment is not sterile and that microbes shape development earlier than assumed.</p>
-<p>Most of those studies lacked the contamination controls that low-biomass samples require. When a sample contains very little microbial DNA, reagent- and laboratory-derived sequences can dominate the result while still looking biologically plausible. Through a collaboration with Charité–Universitätsmedizin Berlin, I applied contamination-aware protocols to meconium collected immediately before caesarean delivery and found no detectable microbiota. That attention to technical artefacts goes back to my MSc work, which showed that PCR amplification introduces consistent, primer- and region-dependent biases in Illumina-based 16S rRNA gene profiling.</p>
-<p>I then re-analysed the published data behind a high-profile paper that I thought overstated the evidence for fetal microbial exposure, which became a peer-reviewed letter in <em>Cell</em>. The letter led to my being first author on a <em>Nature</em> perspective, written with 47 colleagues, that synthesized the evidence and set out principles for contamination-aware study design.</p>
-<p>If the fetus is not colonized, any prenatal influence of the maternal microbiome has to operate through bacterial products, such as metabolites or extracellular vesicles, that cross the placenta. Which of these signals reach the fetus, and what they do to fetal development, is still largely unknown.</p>
+<p>Reports of bacterial DNA in placenta, amniotic fluid, and meconium suggested that colonization begins in utero. Most of those studies lacked the contamination controls that low-biomass samples require. When a sample contains very little microbial DNA, reagent- and laboratory-derived sequences can dominate the result while still looking biologically plausible. Through a collaboration with Charité, I applied contamination-aware protocols to meconium collected immediately before caesarean delivery and found no detectable microbiota. I then re-analysed the published data behind a high-profile paper that I thought overstated the evidence for fetal microbial exposure, which became a peer-reviewed letter in <em>Cell</em>, and led a <em>Nature</em> perspective with 47 colleagues setting out principles for contamination-aware study design. That attention to technical artefacts goes back to my MSc work, which showed that PCR amplification introduces consistent, primer- and region-dependent biases in Illumina-based 16S rRNA gene profiling.</p>
+<p>Longitudinal microbiome studies usually track individual taxa or diversity metrics over time. With McMaster’s Department of Mathematics and Statistics, I developed TALDA, which adapts latent Dirichlet allocation to model subcommunities of co-occurring taxa over time. In the Bugs in BHIP cohort it detected parity-dependent dynamics that conventional methods missed, and the approach applies to longitudinal microbiome data well beyond pregnancy.</p>
 <div class="papers">
-<p><strong>Papers:</strong> <a href="https://doi.org/10.1038/s41564-021-00904-0">Kennedy et al.&nbsp;2021, <em>Nat Microbiol</em></a> · <a href="https://doi.org/10.1016/j.cell.2021.10.026">Kennedy et al.&nbsp;2021, <em>Cell</em></a> · <a href="https://doi.org/10.1038/s41586-022-05546-8">Kennedy et al.&nbsp;2023, <em>Nature</em></a> · <a href="https://doi.org/10.1128/AEM.01451-14">Kennedy et al.&nbsp;2014, <em>Appl Environ Microbiol</em></a></p>
-</div>
-</section>
-<section id="parity-as-a-modifier" class="level2">
-<h2 class="anchored" data-anchor-id="parity-as-a-modifier">Parity as a modifier</h2>
-<div class="key-finding">
-<p>Parity modifies how maternal adiposity relates to the gut microbiota in pregnancy, and the differences extend to neonatal colonization.</p>
-</div>
-<p>Pregnancy microbiome studies generally treat consecutive pregnancies as interchangeable. Yet first-born children are smaller at birth, one sign that first and later pregnancies differ biologically.</p>
-<p>In a prospective cohort at Charité, I found that parity modifies how BMI and gestational weight gain relate to the maternal gut microbiota. Associations between excess adiposity and community composition were largely confined to first pregnancies, and multiparous participants followed different microbial trajectories. With McMaster’s Department of Mathematics and Statistics, I developed TALDA, which adapts latent Dirichlet allocation to model subcommunities of co-occurring taxa over time; in this cohort, specific subcommunities expand and contract differently in first and later pregnancies, and their postpartum recovery diverges. Pooling primiparous and multiparous participants can therefore obscure real biological signal. In neonates, delivery mode, birth order, and sex each independently shape early colonization.</p>
-<p>In the Baby &amp; Mi birth cohort, I am now asking how intrapartum antibiotic prophylaxis and birth order jointly shape infant microbiome development, and whether early disruptions propagate to later growth and atopic outcomes.</p>
-<div class="papers">
-<p><strong>Papers:</strong> <a href="https://doi.org/10.1080/19490976.2023.2259316">Kennedy et al.&nbsp;2023, <em>Gut Microbes</em></a> · <a href="https://doi.org/10.1080/19490976.2025.2491667">Kennedy et al.&nbsp;2025, <em>Gut Microbes</em></a> · <a href="https://doi.org/10.1080/19490976.2026.2690907">Kennedy et al.&nbsp;2026, <em>Gut Microbes</em></a></p>
+<p><strong>Papers:</strong> <a href="https://doi.org/10.1038/s41564-021-00904-0">Kennedy et al.&nbsp;2021, <em>Nat Microbiol</em></a> · <a href="https://doi.org/10.1016/j.cell.2021.10.026">Kennedy et al.&nbsp;2021, <em>Cell</em></a> · <a href="https://doi.org/10.1038/s41586-022-05546-8">Kennedy et al.&nbsp;2023, <em>Nature</em></a> · <a href="https://doi.org/10.1128/AEM.01451-14">Kennedy et al.&nbsp;2014, <em>Appl Environ Microbiol</em></a> · <a href="https://doi.org/10.1080/19490976.2026.2690907">Kennedy et al.&nbsp;2026, <em>Gut Microbes</em></a></p>
 </div>
 </section>
 <section id="from-early-life-to-healthspan" class="level2">
 <h2 class="anchored" data-anchor-id="from-early-life-to-healthspan">From early life to healthspan</h2>
 <p>The question that runs through all of this work is which early-life differences last, and which can be changed. The next step is to follow them forward, from childhood growth and allergy to gut barrier function and health in aging, and to ask where along that path prevention could start.</p>
-<p>Early-life programming is well established as a factor in who is susceptible to diet- and lifestyle-related disease. Whether it also shapes who benefits from interventions, such as changes in diet or exercise, is largely untested, and the answer could help match prevention to the people most likely to benefit. Closer to birth, the Good Bugs Study, which I lead, asks which members of the vaginal microbiota protect mothers and newborns against Group B <em>Streptococcus</em>.</p>
+<p>Early-life programming is well established as a factor in who is susceptible to diet- and lifestyle-related disease. Whether it also shapes who benefits from interventions, such as changes in diet or exercise, is largely untested, and the answer could help match prevention to the people most likely to benefit.</p>
 </section>
 </div>
 <div class="research-figure">
