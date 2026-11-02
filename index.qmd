@@ -21,26 +21,27 @@ page-layout: full   # photo + text layout, see .about-frame in custom.scss
 ::: {.about-text}
 
 ::: {.standfirst}
-The conditions a child starts life in, from the mother's diet and pregnancy history to the first
-microbes the baby meets at birth, shape health for decades. I study how those conditions are set
-and how the gut carries them forward, from infancy into aging. I'm a postdoctoral fellow in the
+Each pregnancy reshapes the gut microbial community that the next child inherits. I study how a
+mother's pregnancy history and diet shape the gut and microbiota her child starts life with, and
+how those early differences carry forward across the lifespan. I am a postdoctoral fellow in the
 Department of Biochemistry and Biomedical Sciences at McMaster University.
 :::
 
-My first question was when that process begins. Using contamination-aware methods, I showed that
-the gut is colonized at birth and not before. Since then I've followed what the mother passes on.
-A first pregnancy changes the maternal gut microbiome differently than later ones, and in mice, a
-maternal high-fat diet alters the fetal gut with effects that last into adulthood. The
-[Research](research.qmd) page has the details.
+My work on low-biomass methods established that meconium has no detectable microbiota before
+birth, so colonization begins at birth and what the mother transmits during delivery matters. I
+have since shown that the maternal gut microbiome adapts differently to a first pregnancy than to
+later ones, and that birth order changes how the neonatal microbiome responds to delivery mode and
+intrapartum antibiotics. In mice, maternal high-fat diet alters the fetal gut, with effects on the
+offspring microbiome and gut barrier that last into adulthood.
 
-Next, I want to follow that chain forward, from which early differences in the infant microbiome
-track with growth and allergy in childhood to whether programming before birth changes how we
-age. I work at the bench and the keyboard, from culturing and banking bacterial strains to shotgun
-metagenomics and computational methods for tracking microbial communities over time. I lead the
-Good Bugs Study, which tests whether specific vaginal microbes protect mothers and newborns from
-Group B *Streptococcus*.
+I work at the bench and the keyboard, from culturing and banking bacterial strains to shotgun
+metagenomics and TALDA, a method I developed with McMaster's Department of Mathematics and
+Statistics to model microbial subcommunities over time. I designed and lead the Good Bugs Study,
+which tracks which vaginal and gut strains pass from mothers to newborns in first and later
+pregnancies. The [Research](research.qmd) page has the details.
 
-<!-- Personal line: Kate to write. -->
+Outside the lab, I spent five years as a sailing instructor. These days I make pottery and stained
+glass and am learning to knit. Charlie, my St. Bernard, supervises.
 
 :::
 
